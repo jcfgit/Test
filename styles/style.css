@@ -1,0 +1,83 @@
+nav {
+    padding: 125px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: square;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: square;
+}
+
+header{
+    
+    background-image: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navy;
+    border: 1px solid blue;
+        
+}
+
+body{
+    background-color: black;
+    color: white;
+    
+}
+footer{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+aside ul li a{
+    color: blue;
+    text-decoration: none;
+}
+aside ul li{
+    list-style-type: none;
+}
+#content {
+    float:left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+
+        
+}
+
+aside {
+    border: .5px solid yellow;
+    width: 17%;
+    float: right;
+}
+
+.col_detail {
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
